@@ -1,0 +1,68 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="./js/main.js"></script>
+    <title>Document</title>
+</head>
+<body onload="init()">
+    <main class="flex-row">
+        <!-- 
+            # El nodo con etiqueta "section", el elemento con nombre "section" presenta los siguientes atributos:
+            tagName: section {
+                id = "formulas"
+                styles = [
+
+                    # background
+                    .background-{red}: 
+                        "background/background-color.css" 
+                        Establece un color de fondo {rojo},
+
+                    # border
+                    .border-{red}:
+                        "border/border-color.css"
+                        Establece el color de borde {rojo},
+                    .border-width-{02}:
+                        "border/border-width.css" 
+                        Establece el ancho de bloque {02}
+
+                    # sizing 
+                    .width-{5}
+                        "sizing/sizing.css"
+                        Establece el ancho porcentual de {5}
+
+                    #position
+                    .flex-{col}
+                        "position/position.css"
+                        Establece la posición o el comportamiento flexible a modo de {columna}
+
+                ]
+            }
+        -->
+        <section id="formulas" class="width-5 flex-col background-blue border-blue border-width-02">
+            <div class="background-orange center">
+                <h1 class="font-title" style="color:#0A80DB"> Additive Manufacturing</h1>
+                <img class="img border-circle" src="img/LMD-1.jpg">
+                <p class="font-title" style="color:#0A80DB">LMD</p>
+                <p class="font-subtitle">Metal's Print 3D</p>
+            </div>
+            <div class="background-grey center">
+                <h1 class="font-title font-pink">Soft Magnetic Composites</h1>
+                <img class="img border-circle" src="img/SMC-Cer-1.jpg">
+                <p class="font-title font-pink">Crystalline & Amorphous structures</p>
+                <p class="font-subtitle">Ceramic & Polymer coating</p>
+            </div>
+			<iframe src="https://unav.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3c6060fd-5f61-43c7-87b4-aeb4008b956c&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+            <!-- <div class="background-orange center">
+                <h1>Apartado 2</h1>
+                <img class="img border-circle" src="img/Amorphous-1.jpg">
+                <p class="font-title font-pink">Amorphous Structures</p>
+                <p class="font-subtitle">Polymer coating</p>
+            </div> -->
+        </section>
+        <section id="animation-layer" class="imagen-fondo-01 width-10 height 10" style="background-color: rgba(243,237,0.2);">
+        </section>
+    </main>
+
+</body></html>
